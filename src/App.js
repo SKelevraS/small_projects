@@ -13,12 +13,6 @@ function App() {
 
   return (
     <div className="App">
-      <div>
-        <h2>Счётчик</h2>
-        <h1>{count}</h1>
-        <button onClick={decrement} className='decrement'>Вычесть</button>
-        <button onClick={increment} className='increment'>Добавить</button>
-      </div>
   
     </div>
   );
